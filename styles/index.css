@@ -42,7 +42,7 @@ body{
     margin: 0 0 20px 0;
 }
 
-.text p:first-child{
+.text p{
     font-family: Arial;
 font-size: 14px;
 line-height: 40px;
@@ -51,7 +51,13 @@ text-transform: uppercase;
 letter-spacing: 0.2em;
 color: #000000;
 }
-.text p:nth-child(2){
+.text li:nth-child(1){
+    font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+}
+.text li:nth-child(2){
     font-family: Arial;
 font-size: 20px;
 line-height: 36px;
@@ -59,14 +65,14 @@ font-weight: 400;
 text-decoration: line-through;
 color: #273d46;
 }
-.text p:nth-child(3){
+.text li:nth-child(3){
     font-family: Arial;
 font-size: 20px;
 line-height: 36px;
 font-weight: 700;
 color: #273d46;
 }
-.text p:nth-child(4){
+.text li:nth-child(4){
     font-family: Arial;
 font-size: 20px;
 line-height: 36px;
@@ -74,7 +80,7 @@ font-weight: 400;
 font-style: italic;
 color: #273d46;
 }
-.text p:last-child{
+.text li:last-child{
     font-family: Arial;
 font-size: 20px;
 line-height: 36px;
@@ -82,14 +88,14 @@ font-weight: 400;
 text-transform: uppercase;
 color: #273d46;
 }
-.text-2 p {
+.text-2 li {
     font-family: Arial;
 font-size: 20px;
 line-height: 36px;
 font-weight: 400;
 color: #273d46;
 }
-.text-2 p:nth-child(2):hover{
+.text-2 li:nth-child(2):hover{
     color: #d55a5a
 }
 .tbutton {
